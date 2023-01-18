@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/jusa.css">
+    <script src="./script/jusa.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>주사위 게임</h1>
+    </header>
+
+    <main id="START">
+        <section id="s1">이미지</section>
+        <section id="s2">
+            <button onclick="showDice()">주사위 선택</button>
+        </section>
+        <br>
+        <!-- <div id="div0"> </div>
+        <div id="div1"> START! </div>    
+        아래 줄 숨김 같이 생성되는 함수 ==> js buttonAdd();
+        -->
+
+        <form>
+            <fieldset>
+                <legend>예상되는 숫자를 선택하세요.</legend>
+                <label>
+                    <input type="radio" name="1" id="dice1" value="1">
+                    <label for="dice1">1</label>
+                    <input type="radio" name="2" id="dice2" value="2">
+                    <label for="dice2">2</label>
+                    <input type="radio" name="3" id="dice3" value="3">
+                    <label for="dice3">3</label>
+                    <input type="radio" name="4" id="dice4" value="4">
+                    <label for="dice4">4</label>
+                    <input type="radio" name="5" id="dice5" value="5">
+                    <label for="dice5">5</label>
+                    <input type="radio" name="6" id="dice6" value="6">
+                    <label for="dice6">6</label>
+                </label>
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+</html>
